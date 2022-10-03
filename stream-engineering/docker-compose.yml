@@ -1,0 +1,8 @@
+services:
+  stream-engineering:
+    build: ./
+    container_name: stream-engineering
+    command: >
+      bash -c "python3 -m ./code/engineer.py"
+    volumes:
+      - .:/code:rw

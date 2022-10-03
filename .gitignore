@@ -1,0 +1,3 @@
+.env*
+stream-engineering/venv/*
+prophet-api/venv/*
